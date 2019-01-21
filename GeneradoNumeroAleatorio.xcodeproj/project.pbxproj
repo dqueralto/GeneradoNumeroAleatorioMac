@@ -98,8 +98,8 @@
 			children = (
 				7F3A7C8321F6477B00D557D6 /* AppDelegate.swift */,
 				7F3A7C8521F6477B00D557D6 /* ViewController.swift */,
-				7F3A7C8721F6477E00D557D6 /* Assets.xcassets */,
 				7F3A7C8921F6477E00D557D6 /* Main.storyboard */,
+				7F3A7C8721F6477E00D557D6 /* Assets.xcassets */,
 				7F3A7C8C21F6477E00D557D6 /* Info.plist */,
 				7F3A7C8D21F6477E00D557D6 /* GeneradoNumeroAleatorio.entitlements */,
 			);
