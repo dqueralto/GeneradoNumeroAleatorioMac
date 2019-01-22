@@ -33,7 +33,7 @@ class ViewController: NSViewController {
 
     @IBAction func generar(_ sender: Any)
     {
-        
+        nResultado.insertText =  Int(arc4random_uniform(nInicio.text!))
     }
     
     
