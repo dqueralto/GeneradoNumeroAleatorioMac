@@ -711,7 +711,7 @@
                         <subviews>
                             <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="tyV-hG-R0w">
                                 <rect key="frame" x="169" y="151" width="146" height="22"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="center" drawsBackground="YES" id="b6p-W4-TKe">
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="center" drawsBackground="YES" id="b6p-W4-TKe">
                                     <numberFormatter key="formatter" formatterBehavior="default10_4" numberStyle="decimal" minimumIntegerDigits="1" maximumIntegerDigits="2000000000" maximumFractionDigits="3" id="hIZ-N8-D4K"/>
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -735,6 +735,9 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="generar:" target="XfG-lQ-9wD" id="gDR-n8-Z0A"/>
+                                </connections>
                             </button>
                             <segmentedControl verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="jFs-W3-S7M">
                                 <rect key="frame" x="140" y="58" width="204" height="24"/>
@@ -809,6 +812,11 @@
                             <constraint firstItem="MQi-iY-Bls" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="179" id="z8R-uk-vwx"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="nFinal" destination="hgi-ul-II2" id="iYK-Yu-Za6"/>
+                        <outlet property="nInicio" destination="4i5-Sb-8SZ" id="voc-4B-HlC"/>
+                        <outlet property="nResultado" destination="tyV-hG-R0w" id="1XN-mK-hkE"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>

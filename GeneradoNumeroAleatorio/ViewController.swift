@@ -9,19 +9,35 @@
 import Cocoa
 
 class ViewController: NSViewController {
-
-    override func viewDidLoad() {
+    @IBOutlet weak var nInicio: NSTextField!
+    @IBOutlet weak var nFinal: NSTextField!
+    @IBOutlet weak var nResultado: NSTextField!
+    
+    
+    
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
-    override var representedObject: Any? {
-        didSet {
-        // Update the view, if already loaded.
+    override var representedObject: Any?
+    {
+        didSet
+        {
+            // Update the view, if already loaded.
         }
     }
 
+    @IBAction func generar(_ sender: Any)
+    {
+        
+    }
+    
+    
+    
 
 }
 
